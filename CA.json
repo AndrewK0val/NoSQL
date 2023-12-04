@@ -1,0 +1,40 @@
+{
+    "User" :{
+        "user_id" : "",
+        "user_name" : "",
+        "user_email" : "",
+        "user_password" : ""
+    },
+
+    "Notification" : {
+        "notification_id" : "",
+        "is_recognized": "",
+        "num_people" : [],
+        "is_opened": "",
+        "time_opened" : ""
+    },
+
+
+    "Device" : {
+        "device_id" : "",
+        "device_name" : "",
+        "user_id" : "",
+
+        "Sensor details" : {
+            "ultrasonic_trigger" : "",
+            "person_presence_trig": "",
+            "is-recognized_person" : "",
+            "recognized_face_trig" : "",
+            "recording_activation_type": ""
+        },
+        "Recording" : {
+            "recording_id" : "",
+            "video_url_link" : "",
+            "is_call" : "",
+            "start_time" : "",
+            "end_time" : ""
+        }
+    }
+
+}
+
